@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Letícia Duarte - Manicure Profissional</title>
+    <meta name="description" content="Studio de manicure profissional com serviços de alongamento, banho de gel, blindagem e spa dos pés. Agende seu horário!">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Studio Letícia Duarte</h1>
+                    <span>Manicure Profissional</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Descubra o meu método
+                    <span class="highlight">totalmente único</span>
+                    e prático de
+                    <span class="highlight">Cutilagem e Esmaltação</span>
+                </h1>
+                <p class="hero-description">
+                    Transforme suas unhas com técnicas profissionais e cuidado personalizado. 
+                    Experiência única com materiais esterilizados e ambiente acolhedor.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Agendar Horário</a>
+                    <a href="#services" class="btn btn-secondary">Ver Serviços</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Materiais Esterilizados</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Horário Marcado</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <span>Cuidado Personalizado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Manicure profissional" class="hero-img">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <h3>Experiência Premium</h3>
+                            <p>Café especial durante o atendimento</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Técnicas profissionais para realçar sua beleza natural</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Alongamento de Unhas</h3>
+                    <p>Para unhas quebradiças com alongamento imediato. Opções: Quadrada, Almond, Bailarina, Stiletto.</p>
+                    <div class="service-details">
+                        <div class="price">
+                            <span class="price-label">Aplicação:</span>
+                            <span class="price-value">R$ 170</span>
+                        </div>
+                        <div class="price">
+                            <span class="price-label">Manutenção:</span>
+                            <span class="price-value">R$ 110</span>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>2 a 3 horas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Banho de Gel</h3>
+                    <p>Gel construtor na unha natural, criando estrutura resistente e permitindo crescimento saudável.</p>
+                    <div class="service-details">
+                        <div class="price">
+                            <span class="price-label">Aplicação:</span>
+                            <span class="price-value">R$ 120</span>
+                        </div>
+                        <div class="price">
+                            <span class="price-label">Manutenção:</span>
+                            <span class="price-value">R$ 95</span>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>2 a 3 horas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Blindagem</h3>
+                    <p>Para unhas curtas com aspecto natural e brilho saudável. Aumenta a resistência e durabilidade do esmalte.</p>
+                    <div class="service-details">
+                        <div class="price">
+                            <span class="price-label">Aplicação:</span>
+                            <span class="price-value">R$ 70</span>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>1 a 2 horas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Esmaltação em Gel</h3>
+                    <p>Preparo com gel para maior durabilidade. Seca na cabine, não borra e dura de 15 a 21 dias.</p>
+                    <div class="service-details">
+                        <div class="price">
+                            <span class="price-label">Aplicação:</span>
+                            <span class="price-value">R$ 60</span>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>1 a 2 horas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Spa dos Pés</h3>
+                    <p>Hidratação profunda, esfoliação, massagem relaxante e escalda pés. Experiência completa de bem-estar.</p>
+                    <div class="service-details">
+                        <div class="price">
+                            <span class="price-label">Valor:</span>
+                            <span class="price-value">R$ 70</span>
+                        </div>
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>1 hora</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Serviços Adicionais</h3>
+                    <p>Decorações, pedrarias, design de sobrancelha e depilações. Personalize sua experiência.</p>
+                    <div class="service-details">
+                        <div class="price">
+                            <span class="price-label">A partir de:</span>
+                            <span class="price-value">R$ 2</span>
+                        </div>
+                        <div class="additional-info">
+                            <span>Consulte valores específicos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre o Studio</h2>
+                    <p class="about-description">
+                        No Studio Letícia Duarte, cada cliente recebe um atendimento personalizado e cuidadoso. 
+                        Nosso compromisso é com a qualidade, segurança e sua satisfação.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Biossegurança</h4>
+                                <p>Todos os materiais são esterilizados e descartados corretamente</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-coffee"></i>
+                            <div>
+                                <h4>Experiência Única</h4>
+                                <p>Café especial servido durante os atendimentos</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-calendar-check"></i>
+                            <div>
+                                <h4>Horários Flexíveis</h4>
+                                <p>Segunda a sexta das 08h às 19h, sábado das 08h às 14h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Studio de manicure">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossas clientes dizem</h2>
+                <p>Depoimentos reais de quem confia no nosso trabalho</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Você é a melhor!!! Trabalho impecável! Com todo cuidado e carinho sempre! E sem falar no trabalho incrível que você faz!"</p>
+                        <div class="testimonial-author">
+                            <strong>Yasmin</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Eu sou apaixonada no seu trabalho! Quando vou fazer a manutenção minhas unhas sempre estão intactas e eu amooo!"</p>
+                        <div class="testimonial-author">
+                            <strong>Ingrid</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Agende seu Horário</h2>
+                    <p>Entre em contato e transforme suas unhas com nossos serviços profissionais.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>(15) 99142-7933</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p>@studioleticiaduarte_</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Rua Goiacoz 260 - Vila Progresso</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horário de Funcionamento</h4>
+                                <p>Segunda a sexta: 08h às 19h<br>Sábado: 08h às 14h</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-info">
+                        <h3>Formas de Pagamento</h3>
+                        <div class="payment-methods">
+                            <div class="payment-method">
+                                <i class="fas fa-credit-card"></i>
+                                <span>Cartão de Débito/Crédito</span>
+                            </div>
+                            <div class="payment-method">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>PIX</span>
+                            </div>
+                            <div class="payment-method">
+                                <i class="fas fa-money-bill"></i>
+                                <span>Dinheiro</span>
+                            </div>
+                        </div>
+                        <p class="discount-info">
+                            <i class="fas fa-percentage"></i>
+                            5% de desconto para pagamento em dinheiro ou PIX (com 24h de antecedência)
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <h3>Pronta para transformar suas unhas?</h3>
+                        <p>Agende agora mesmo pelo WhatsApp e garante seu horário!</p>
+                        <a href="https://wa.me/5515991427933?text=Olá! Gostaria de agendar um horário no Studio Letícia Duarte." class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Agendar pelo WhatsApp
+                        </a>
+                        <div class="cta-features">
+                            <div class="cta-feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Materiais Esterilizados</span>
+                            </div>
+                            <div class="cta-feature">
+                                <i class="fas fa-coffee"></i>
+                                <span>Café Especial</span>
+                            </div>
+                            <div class="cta-feature">
+                                <i class="fas fa-star"></i>
+                                <span>Atendimento Premium</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Studio Letícia Duarte</h3>
+                    <p>Transformando unhas com técnicas profissionais e cuidado personalizado.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/studioleticiaduarte_" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5515991427933" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li>Alongamento de Unhas</li>
+                        <li>Banho de Gel</li>
+                        <li>Blindagem</li>
+                        <li>Esmaltação em Gel</li>
+                        <li>Spa dos Pés</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (15) 99142-7933</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Rua Goiacoz 260 - Vila Progresso</li>
+                        <li><i class="fas fa-clock"></i> Seg-Sex: 08h-19h | Sáb: 08h-14h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Studio Letícia Duarte. Todos os direitos reservados.</p>
+                <p class="validity">Valores válidos até 31/10/2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
